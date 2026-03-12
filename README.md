@@ -12,6 +12,7 @@ The proxy accepts incoming charger connections and forwards messages to an upstr
 - Support for encrypted private keys (`cert_key_password`).
 - Optional custom trust certificate for outgoing backend TLS validation (`trusted_cert`).
 - Idle cleanup for backend WebSocket connections (`server_idle_timeout`).
+- Self signed "localhost" certificates intended for testing only
 
 ## Project Structure
 
